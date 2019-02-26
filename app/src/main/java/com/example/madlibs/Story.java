@@ -1,5 +1,5 @@
-/*
- * Story.java
+package com.example.madlibs;/*
+ * com.example.madlibs.Story.java
  * Madlibs
  *
  * Created by Hella Haanstra on April 15, 2016
@@ -13,7 +13,7 @@
  * To see how many placeholders are left, use the methods
  *  getPlaceholderRemainingCount and isFilledIn.
  * You can get the story's text by calling its toString method.
- * A Story is Serializable, so it can be packed into an Intent as "extra" data.
+ * A com.example.madlibs.Story is Serializable, so it can be packed into an Intent as "extra" data.
  */
 
 // !YOU MAY WANT TO CHANGE THE PACKAGE BELOW SO THAT IT MATCHES YOUR PROJECT'S PACKAGE!
@@ -36,7 +36,7 @@ public class Story implements Serializable {
         clear();
     }
 
-    /** constructs a new Story reading its text from the given input stream */
+    /** constructs a new com.example.madlibs.Story reading its text from the given input stream */
     public Story(InputStream stream) {
         read(stream);
     }
