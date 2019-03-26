@@ -8,19 +8,19 @@ Madlibs:
 
 Intro Activity screenshots: 
 
-![Intro Activity Portrait](/docs/portrait1.jpg "Intro Activity Portrait")
+![Intro Activity Portrait](/docs/portrait1.jpeg "Intro Activity Portrait")
 
-![Intro Activity Landscape](/docs/landscape1.jpg "Intro Activity Landscape")
+![Intro Activity Landscape](/docs/landscape1.jpeg "Intro Activity Landscape")
 
 MadLib user fill in (Main) Activity screenshots: 
 
-![Main Activity Portrait](/docs/portrait2.jpg "Main Activity Portrait")
+![Main Activity Portrait](/docs/portrait2.jpeg "Main Activity Portrait")
 
-![Main Activity Landscape](/docs/landscape2.jpg "Main Activity Landscape")
+![Main Activity Landscape](/docs/landscape2.jpeg "Main Activity Landscape")
 
 MadLib Story Activity screenshots: 
 
-![Story Activity Portrait](/docs/portrait3.jpg "Story Activity Portrait")
+![Story Activity Portrait](/docs/portrait3.jpeg "Story Activity Portrait")
 
-![Story Activity Landscape](/docs/landscape3.jpg "Story Activity Landscape")
+![Story Activity Landscape](/docs/landscape3.jpeg "Story Activity Landscape")
 
