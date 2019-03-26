@@ -18,19 +18,19 @@ public class TextInputActivity extends AppCompatActivity {
         Intent intent = getIntent();
         Story retrievedStory = (Story) intent.getSerializableExtra("story");
         TextView outputText = findViewById(R.id.outputText);
+
         // make user inputted text appear bold
         // (sources used: https://stackoverflow.com/questions/46598639/multiple-lines-of-text-with-bold-headings-in-android)
         outputText.setText(Html.fromHtml(retrievedStory.toString()));
-
     }
 
+    // ensure that back presses and return clicks work the intended way
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(this, MainActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
-
     public void returnClicked(View v) {
         Intent intent = new Intent(this, MainActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

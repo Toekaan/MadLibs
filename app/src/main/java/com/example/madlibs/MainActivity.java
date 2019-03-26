@@ -1,6 +1,3 @@
-
-
-
 package com.example.madlibs;
 
         import android.app.Activity;
@@ -15,7 +12,6 @@ package com.example.madlibs;
         import android.widget.Button;
         import android.widget.Spinner;
         import android.widget.Toast;
-
         import java.io.InputStream;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         storyAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         storySpinner.setAdapter(storyAdapter);
         storySpinner.setOnItemSelectedListener(new SpinnerSelect());
-
     }
 
     public class SpinnerSelect extends Activity implements AdapterView.OnItemSelectedListener {
@@ -51,12 +46,14 @@ public class MainActivity extends AppCompatActivity {
             selected = null;
         }
     }
+
     /** gives string of chosen story within intent to next activity */
     public void checkStart(View v){
         // probably won't be used since spinner already selects "simple" automatically
         if (selected == null){
             Toast.makeText(this, "Please select one of the stories!", Toast.LENGTH_SHORT).show();
         }
+
         // check user input and choose according story
         else {
             intent.putExtra("selected", selected);

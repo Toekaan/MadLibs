@@ -59,13 +59,10 @@ public class UserInputActivity extends AppCompatActivity {
         int left = story.getPlaceholderRemainingCount();
         wordsLeft.setText(left + " word(s) left");
         wordType.setText("please fill in a " + story.getNextPlaceholder());
-
-
     }
 
 
     public void okClicked(View v){
-
         // get string from user input
         TextInputEditText wordInput = findViewById(R.id.wordInput);
         String inputText = wordInput.getText().toString();
